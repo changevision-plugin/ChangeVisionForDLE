@@ -1,0 +1,121 @@
+body {
+
+}
+#changevision-on {
+    position: relative;
+    background: #ebebeb;
+    top: 0;
+    left: 0;
+    z-index: 99998;
+    color: #000000;
+    padding: 15px;
+    border-bottom: 1px solid #e4e4e4;
+    font-size: 16px;
+    letter-spacing: 0;
+	display:none;
+}
+#changevision-ver {
+    color: #000000;
+    background: url(../img/ico.png) no-repeat 100% 0%;
+	background-size:50px;
+    font-size: inherit;
+    padding: 6px;
+	width:200px;
+	height:25px;
+	right:20px;
+	top:10px;
+	position:fixed;
+}
+#changevision-clear {
+	position:absolute;
+	z-index:999999;
+}
+#changevision-style {
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+}
+#changevision-style a {
+    color: #000000;
+}
+#changevision-style a:hover {
+    color: #000000;
+}
+#changevision-style .ch_white {
+    padding: 3px;
+    margin: 3px;
+    background: #ffffff;
+    border: 1px solid #2a2a2a;
+    border-radius: 3px;
+}
+#changevision-style .ch_black {
+    padding: 3px;
+    margin: 3px;
+    background: #000000;
+    color: #ffffff;
+    border: 1px solid #2a2a2a;
+    border-radius: 3px;
+}
+#changevision-style .ch_black:hover {
+    color: #ffffff;
+}
+#changevision-style .ch_blue {
+    padding: 3px;
+    margin: 3px;
+    color: #063462;
+    background: #9DD1FF;
+    border: 1px solid #2a2a2a;
+    border-radius: 3px;
+}
+#changevision-style .ch_green {
+    padding: 3px;
+    margin: 3px;
+    color: #A9E44D;
+    background: #3B2716;
+    border: 1px solid #2a2a2a;
+    border-radius: 3px;
+}
+#changevision-style .ch_green:hover {
+    color: #A9E44D;
+}
+#changevision-style .ch_font .ch_a-14 {
+    font-size: 14px !important;
+    padding: 3px;
+}
+#changevision-style .ch_font .ch_a-16 {
+    font-size: 16px !important;
+    padding: 3px;
+}
+#changevision-style .ch_font .ch_a-18 {
+    font-size: 18px !important;
+    padding: 3px;
+}
+#changevision-style .ch_font .ch_a-24 {
+    font-size: 24px !important;
+    padding: 3px;
+}
+#changevision-style .ch_font .ch_active {
+    text-decoration: underline;
+}
+#changevision-style .ch_images {
+    border-left: 1px solid #d9d9d9;
+}
+#changevision-style .ch_img {
+    vertical-align:middle;
+}
+#changevision-style .ch_remove ,.ch_font ,.ch_color_scheme,.ch_images,.ch_line_height {
+    padding: 15px;
+}
+#changevision-style .ch_line_height {
+    border-right: 1px solid #d9d9d9;
+}
+#changevision-style .ch_font {
+    border-left: 1px solid #d9d9d9;
+    border-right: 1px solid #d9d9d9;
+}
+.ch_line_heightOn,.ch_line_heightOff,.ch_letter_spacingOn,.ch_letter_spacingOff {
+    font-size: 24px;
+}
+.ch_active_scheme {
+    text-decoration: underline;
+}
